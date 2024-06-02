@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prediction Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 40px;
+            padding: 20px;
+            line-height: 1.6;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        .result {
+            padding: 20px;
+            border-radius: 8px;
+            color: white;
+            font-size: 24px;
+            margin-top: 20px;
+        }
+        .fraud {
+            background-color: #ff6347; /* Tomato red for fraud */
+        }
+        .not-fraud {
+            background-color: #32cd32; /* Lime Green for not fraud */
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Prediction Result</h1>
+    <div class="{{ 'fraud' if prediction == 'Fraud' else 'not-fraud' }} result">
+        The transaction is predicted as: {{ prediction }}
+    </div>
+    <button onclick="window.location.href='/'">Make Another Prediction</button>
+</body>
+</html>

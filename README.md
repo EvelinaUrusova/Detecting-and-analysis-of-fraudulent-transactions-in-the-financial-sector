@@ -6,4 +6,7 @@ This project investigates the problem of detecting financial fraud using machine
 Financial fraud, fraud detection, machine learning, Xgboost, autoencoder, neural networks, API creation.
 
 ## Demonstration of the model work:
-![alt text]([https://github.com/EvelinaUrusova/Detecting-and-analysis-of-fraudulent-transactions-in-the-financial-sector/blob/main/images/Input.png?raw=true)
+Input:
+![alt text](https://github.com/EvelinaUrusova/Detecting-and-analysis-of-fraudulent-transactions-in-the-financial-sector/blob/main/images/Input.png)
+Output:
+![alt text](https://github.com/EvelinaUrusova/Detecting-and-analysis-of-fraudulent-transactions-in-the-financial-sector/blob/main/images/Output.png)

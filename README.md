@@ -7,6 +7,9 @@ Financial fraud, fraud detection, machine learning, Xgboost, autoencoder, neural
 
 ## Demonstration of the model work:
 Input:
+
 ![alt text](https://github.com/EvelinaUrusova/Detecting-and-analysis-of-fraudulent-transactions-in-the-financial-sector/blob/main/images/Input.png)
+
 Output:
+
 ![alt text](https://github.com/EvelinaUrusova/Detecting-and-analysis-of-fraudulent-transactions-in-the-financial-sector/blob/main/images/Output.png)

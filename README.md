@@ -4,3 +4,6 @@ This project investigates the problem of detecting financial fraud using machine
 
 ## Key words:
 Financial fraud, fraud detection, machine learning, Xgboost, autoencoder, neural networks, API creation.
+
+## Demonstration of the model work:
+![alt text](https://github.com/EvelinaUrusova/BreadcrumbsDetecting-and-analysis-of-fraudulent-transactions-in-the-financial-sector/blob/main/images/image.jpg?raw=true)
